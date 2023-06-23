@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    
+    background-color: #e6ccb2;
+    
+   
+}
+
+main{
+    flex-wrap: wrap;
+    
+}
+
+header{
+    
+    background-color: #754a2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+.countainer{
+
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 9rem;
+}
+
+img{
+    height: 30rem;
+    margin-left: 5.5rem;
+     flex-wrap: wrap;
+}
+
+h2{
+    font-size: 26px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #5f3e14;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#feliz{
+    margin-left:3rem;
+}
+
+#princesa{
+    height: 50rem;
+    margin-top: 3rem;
+}
+
+#sprinc{
+    background-color: #b08968;
+    padding: 3rem;
+   
+    width: 70rem;
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+
+p{
+    font-size: 23px;
+}
+
+.separacao{
+    background-color: #5f3e14;
+    height: 0.5rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#titulo{
+    height: 10rem;
+    width: 40rem;
+}
+
+.selecao{
+    margin-top: 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.selecao:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.acotar{
+    margin-top: 3rem;
+    height: 40rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.acotar:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.swiper {
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }
